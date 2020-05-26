@@ -1,7 +1,7 @@
 {
     "name"         : "jbzoo/toolbox-dev",
     "type"         : "library",
-    "description"  : "__DESCRIPTION__",
+    "description"  : "Developer toolbox only for JBZoo libs on github+travis",
     "license"      : "MIT",
 
     "authors"      : [
