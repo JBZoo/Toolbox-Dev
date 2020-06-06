@@ -17,8 +17,8 @@
 
         "jbzoo/phpunit"               : "4.0.x-dev",
         "jbzoo/codestyle"             : "2.0.x-dev",
-        "jbzoo/profiler"              : "^1.0.5",
         "jbzoo/jbdump"                : "^1.5.3",
+        "phpbench/phpbench"           : "^0.17.0",
 
         "symfony/var-dumper"          : "^4.4||^5.0",
         "php-coveralls/php-coveralls" : "^2.2.0",
