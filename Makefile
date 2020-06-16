@@ -25,14 +25,4 @@ update: ##@Project Install/Update all 3rd party dependencies
 
 test-all: ##@Project Run all project tests at once
 	@make test
-	@-make test-composer
-	@-make test-composer-reqs
-	@make test-phplint
-	@make test-phpcs
-	@make test-phpmd
-	@make test-phpmnd
-	@make test-phpcpd
-	@make test-phpstan
-	@make test-psalm
-	@make test-phan
-	@make test-phploc
+	@make codestyle
