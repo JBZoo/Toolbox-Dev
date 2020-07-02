@@ -17,6 +17,7 @@
 
         "jbzoo/phpunit"               : "4.0.x-dev",
         "jbzoo/codestyle"             : "2.0.x-dev",
+        "jbzoo/composer-graph"        : "1.0.x-dev",
         "jbzoo/jbdump"                : "^1.5.3",
         "phpbench/phpbench"           : "^0.17.0",
 
