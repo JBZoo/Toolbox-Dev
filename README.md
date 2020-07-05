@@ -12,6 +12,20 @@
 
 
 
+### JBZoo / Composer-Diff
+
+[![Build Status](https://travis-ci.org/JBZoo/Composer-Diff.svg?branch=master)](https://travis-ci.org/JBZoo/Composer-Diff)    [![Coverage Status](https://coveralls.io/repos/JBZoo/Composer-Diff/badge.svg)](https://coveralls.io/github/JBZoo/Composer-Diff?branch=master)    [![Psalm Coverage](https://shepherd.dev/github/JBZoo/Composer-Diff/coverage.svg)](https://shepherd.dev/github/JBZoo/Composer-Diff)    
+[![Latest Stable Version](https://poser.pugx.org/JBZoo/Composer-Diff/v)](https://packagist.org/packages/JBZoo/Composer-Diff)    [![Latest Unstable Version](https://poser.pugx.org/JBZoo/Composer-Diff/v/unstable)](https://packagist.org/packages/JBZoo/Composer-Diff)    [![Dependents](https://poser.pugx.org/JBZoo/Composer-Diff/dependents)](https://packagist.org/packages/JBZoo/Composer-Diff/dependents?order_by=downloads)    [![GitHub Issues](https://img.shields.io/github/issues/JBZoo/Composer-Diff)](https://github.com/JBZoo/Composer-Diff/issues)    [![Total Downloads](https://poser.pugx.org/JBZoo/Composer-Diff/downloads)](https://packagist.org/packages/JBZoo/Composer-Diff/stats)    [![GitHub License](https://img.shields.io/github/license/JBZoo/Composer-Diff)](https://github.com/JBZoo/Composer-Diff/blob/master/LICENSE)
+
+
+
+### JBZoo / Composer-Graph
+
+[![Build Status](https://travis-ci.org/JBZoo/Composer-Graph.svg?branch=master)](https://travis-ci.org/JBZoo/Composer-Graph)    [![Coverage Status](https://coveralls.io/repos/JBZoo/Composer-Graph/badge.svg)](https://coveralls.io/github/JBZoo/Composer-Graph?branch=master)    [![Psalm Coverage](https://shepherd.dev/github/JBZoo/Composer-Graph/coverage.svg)](https://shepherd.dev/github/JBZoo/Composer-Graph)    
+[![Latest Stable Version](https://poser.pugx.org/JBZoo/Composer-Graph/v)](https://packagist.org/packages/JBZoo/Composer-Graph)    [![Latest Unstable Version](https://poser.pugx.org/JBZoo/Composer-Graph/v/unstable)](https://packagist.org/packages/JBZoo/Composer-Graph)    [![Dependents](https://poser.pugx.org/JBZoo/Composer-Graph/dependents)](https://packagist.org/packages/JBZoo/Composer-Graph/dependents?order_by=downloads)    [![GitHub Issues](https://img.shields.io/github/issues/JBZoo/Composer-Graph)](https://github.com/JBZoo/Composer-Graph/issues)    [![Total Downloads](https://poser.pugx.org/JBZoo/Composer-Graph/downloads)](https://packagist.org/packages/JBZoo/Composer-Graph/stats)    [![GitHub License](https://img.shields.io/github/license/JBZoo/Composer-Graph)](https://github.com/JBZoo/Composer-Graph/blob/master/LICENSE)
+
+
+
 ### JBZoo / Codestyle
 
 [![Build Status](https://travis-ci.org/JBZoo/Codestyle.svg?branch=master)](https://travis-ci.org/JBZoo/Codestyle)    [![Coverage Status](https://coveralls.io/repos/JBZoo/Codestyle/badge.svg)](https://coveralls.io/github/JBZoo/Codestyle?branch=master)    [![Psalm Coverage](https://shepherd.dev/github/JBZoo/Codestyle/coverage.svg)](https://shepherd.dev/github/JBZoo/Codestyle)    
