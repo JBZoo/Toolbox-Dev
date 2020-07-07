@@ -23,7 +23,7 @@ if (!class_exists(VarDumper::class)) {
 }
 
 /** @psalm-suppress MissingClosureParamType */
-VarDumper::setHandler(function ($variable) {
+VarDumper::setHandler(static function ($variable): void {
     $maxStringWidth = 16384; // Show first 16kb only, optimization
 
     $varCloner = new VarCloner();
