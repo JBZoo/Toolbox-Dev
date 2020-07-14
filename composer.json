@@ -15,10 +15,10 @@
     "require"           : {
         "php"                         : ">=7.2",
 
-        "jbzoo/phpunit"               : "4.0.x-dev",
-        "jbzoo/codestyle"             : "2.0.x-dev",
-        "jbzoo/composer-graph"        : "1.0.x-dev",
-        "jbzoo/composer-diff"         : "1.0.x-dev",
+        "jbzoo/phpunit"               : "^4.0.0",
+        "jbzoo/codestyle"             : "^2.0.0",
+        "jbzoo/composer-graph"        : "^1.0.0",
+        "jbzoo/composer-diff"         : "^1.0.0",
         "jbzoo/jbdump"                : "^1.5.3",
 
         "phpbench/phpbench"           : "^0.17.0",
@@ -49,7 +49,7 @@
 
     "extra"             : {
         "branch-alias" : {
-            "dev-master" : "1.1.x-dev"
+            "dev-master" : "2.1.x-dev"
         }
     }
 }
