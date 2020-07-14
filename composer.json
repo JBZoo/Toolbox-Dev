@@ -13,9 +13,9 @@
     ],
 
     "require"           : {
-        "php"                         : ">=7.2",
+        "php"                         : "^7.2",
 
-        "jbzoo/phpunit"               : "^4.0.0",
+        "jbzoo/phpunit"               : "^4.1.0",
         "jbzoo/codestyle"             : "^2.0.0",
         "jbzoo/composer-graph"        : "^1.0.0",
         "jbzoo/composer-diff"         : "^1.0.0",

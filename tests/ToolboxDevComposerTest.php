@@ -16,11 +16,10 @@
 namespace JBZoo\PHPUnit;
 
 /**
- * Class CodestyleDevToolboxTest
- *
+ * Class ToolboxDevComposerTest
  * @package JBZoo\PHPUnit
  */
-class CodestyleDevToolboxTest extends AbstractReadmeTest
+class ToolboxDevComposerTest extends AbstractComposerTest
 {
-    protected $packageName = 'Codestyle';
+
 }
