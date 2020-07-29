@@ -20,6 +20,7 @@
         "jbzoo/composer-graph"        : "^1.0.0",
         "jbzoo/composer-diff"         : "^1.0.0",
         "jbzoo/jbdump"                : "^1.5.3",
+        "jbzoo/toolbox-ci"            : "^1.0.0",
 
         "phpbench/phpbench"           : "^0.17.0",
         "symfony/var-dumper"          : "^4.4||^5.0",
