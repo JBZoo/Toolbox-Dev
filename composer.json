@@ -13,14 +13,14 @@
     ],
 
     "require"           : {
-        "php"                         : "^7.2",
+        "php"                         : ">=7.2",
 
-        "jbzoo/phpunit"               : "^4.1.1",
-        "jbzoo/codestyle"             : "^2.3.2",
+        "jbzoo/phpunit"               : "^4.3.0",
+        "jbzoo/codestyle"             : "^2.4.0",
         "jbzoo/composer-graph"        : "^1.0.1",
         "jbzoo/composer-diff"         : "^1.1.0",
         "jbzoo/jbdump"                : "^1.5.3",
-        "jbzoo/toolbox-ci"            : "^1.0.0",
+        "jbzoo/toolbox-ci"            : "^1.1.0",
 
         "phpbench/phpbench"           : "^0.17.1",
         "symfony/var-dumper"          : "^4.4||^5.0",
