@@ -16,7 +16,7 @@
         "php"                         : ">=7.2",
 
         "jbzoo/phpunit"               : "^4.4.5",
-        "jbzoo/codestyle"             : "^2.6.1",
+        "jbzoo/codestyle"             : "^2.7.7",
         "jbzoo/composer-graph"        : "^1.0.3",
         "jbzoo/composer-diff"         : "^1.1.1",
         "jbzoo/jbdump"                : "^1.5.3",
@@ -24,8 +24,8 @@
 
         "phpbench/phpbench"           : ">=0.17.1",
         "symfony/var-dumper"          : "^4.4||^5.0",
-        "php-coveralls/php-coveralls" : "^2.2.0",
-        "fzaninotto/faker"            : "^1.9.1",
+        "php-coveralls/php-coveralls" : "^2.4.3",
+        "fzaninotto/faker"            : "^1.9.2",
 
         "roave/security-advisories"   : "dev-master"
     },
