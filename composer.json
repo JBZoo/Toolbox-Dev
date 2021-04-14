@@ -16,7 +16,7 @@
         "php"                         : ">=7.2",
 
         "jbzoo/phpunit"               : "^4.6.1",
-        "jbzoo/codestyle"             : "^2.9.2",
+        "jbzoo/codestyle"             : "^2.9.3",
         "jbzoo/composer-graph"        : "^1.0.4",
         "jbzoo/composer-diff"         : "^1.1.2",
         "jbzoo/jbdump"                : "^1.5.6",
