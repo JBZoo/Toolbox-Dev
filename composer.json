@@ -43,5 +43,11 @@
 
     "config"       : {
         "optimize-autoloader" : true
+    },
+
+    "extra"        : {
+        "branch-alias" : {
+            "dev-master" : "2.x-dev"
+        }
     }
 }
