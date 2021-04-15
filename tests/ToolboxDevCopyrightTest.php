@@ -13,6 +13,8 @@
  * @link       https://github.com/JBZoo/Toolbox-Dev
  */
 
+declare(strict_types=1);
+
 namespace JBZoo\PHPUnit;
 
 /**
@@ -25,5 +27,6 @@ class ToolboxDevCopyrightTest extends AbstractCopyrightTest
     /**
      * @var string
      */
-    protected $packageName = 'Toolbox-Dev';
+    protected $packageName     = 'Toolbox-Dev';
+    protected $isPhpStrictType = true;
 }
