@@ -1,10 +1,10 @@
 {
-    "name"              : "jbzoo/toolbox-dev",
-    "type"              : "library",
-    "description"       : "Developer toolbox only for JBZoo libs on github+travis",
-    "license"           : "MIT",
+    "name"         : "jbzoo/toolbox-dev",
+    "type"         : "library",
+    "description"  : "Developer toolbox only for JBZoo libs on github+travis",
+    "license"      : "MIT",
 
-    "authors"           : [
+    "authors"      : [
         {
             "name"  : "Denis Smetannikov",
             "email" : "admin@jbzoo.com",
@@ -12,11 +12,11 @@
         }
     ],
 
-    "require"           : {
+    "require"      : {
         "php"                         : ">=7.2",
 
         "jbzoo/phpunit"               : "^4.6.2",
-        "jbzoo/codestyle"             : "^2.9.4",
+        "jbzoo/codestyle"             : "^2.10.0",
         "jbzoo/composer-graph"        : "^1.1.1",
         "jbzoo/composer-diff"         : "^1.1.2",
         "jbzoo/jbdump"                : "^1.5.6",
@@ -25,12 +25,10 @@
         "phpbench/phpbench"           : "^0.17.1",
         "symfony/var-dumper"          : "^4.4|^5.2.5",
         "php-coveralls/php-coveralls" : "^2.4.3",
-        "fakerphp/faker"              : "^1.14.1",
-
-        "roave/security-advisories"   : "dev-master"
+        "fakerphp/faker"              : "^1.14.1"
     },
 
-    "autoload"          : {
+    "autoload"     : {
         "psr-4" : {
             "JBZoo\\ToolboxDev\\" : "src"
         },
@@ -39,20 +37,11 @@
         ]
     },
 
-    "autoload-dev"      : {
+    "autoload-dev" : {
         "classmap" : ["tests"]
     },
 
-    "minimum-stability" : "dev",
-    "prefer-stable"     : true,
-
-    "config"            : {
+    "config"       : {
         "optimize-autoloader" : true
-    },
-
-    "extra"             : {
-        "branch-alias" : {
-            "dev-master" : "2.x-dev"
-        }
     }
 }
