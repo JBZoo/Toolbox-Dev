@@ -15,8 +15,6 @@
 
 namespace JBZoo\PHPUnit;
 
-use JBZoo\ToolboxDev\ToolboxDev;
-
 /**
  * Class ToolboxDevTest
  * @package JBZoo\PHPUnit
