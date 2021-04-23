@@ -31,11 +31,14 @@ jobs:
   phpunit:
     name: PHPUnit
     runs-on: ubuntu-latest
+    env:
+      JBZOO_COMPOSER_UPDATE_FLAGS: ${{ matrix.composer_flags }}
     strategy:
       matrix:
         php-version: [ 7.2, 7.3, 7.4 ]
-        xdebug: [ xdebug, none ]
+        coverage: [ xdebug, none ]
         experimental: [ false ]
+        composer_flags: [ "--prefer-lowest", "" ]
         include:
           - php-version: "8.0"
             experimental: true
@@ -49,7 +52,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php-version }}
-          coverage: ${{ matrix.xdebug }}
+          coverage: ${{ matrix.coverage }}
           tools: composer
 
       - name: Build the Project
@@ -58,7 +61,7 @@ jobs:
 
       - name: 🧪 PHPUnit Tests
         continue-on-error: ${{ matrix.experimental }}
-        run: make server-start test --no-print-directory
+        run: make test --no-print-directory
 
       - name: 👍 Code Quality
         continue-on-error: ${{ matrix.experimental }}
