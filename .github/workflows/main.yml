@@ -39,9 +39,6 @@ jobs:
         experimental: [ false ]
         coverage: [ xdebug, none ]
         composer_flags: [ "--prefer-lowest", "" ]
-        include:
-          - php-version: "8.1"
-            experimental: true
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -83,9 +80,6 @@ jobs:
       matrix:
         php-version: [ 7.2, 7.3, 7.4, 8.0, 8.1 ]
         experimental: [ false ]
-        include:
-          - php-version: "8.1"
-            experimental: true
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -120,9 +114,6 @@ jobs:
       matrix:
         php-version: [ 7.2, 7.3, 7.4, 8.0, 8.1 ]
         experimental: [ false ]
-        include:
-          - php-version: "8.1"
-            experimental: true
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
