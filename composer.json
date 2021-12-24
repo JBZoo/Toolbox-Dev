@@ -15,14 +15,14 @@
     "require"      : {
         "php"                         : ">=7.2",
 
-        "jbzoo/phpunit"               : "^4.10.0",
-        "jbzoo/codestyle"             : "^3.0.3",
+        "jbzoo/phpunit"               : "^4.11.1",
+        "jbzoo/codestyle"             : "^3.2.1",
 
         "jbzoo/jbdump"                : "^1.5.6",
-        "symfony/var-dumper"          : "^4.4|^5.0",
+        "symfony/var-dumper"          : ">=4.4",
 
         "php-coveralls/php-coveralls" : "^2.4.3",
-        "fakerphp/faker"              : "^1.14.1"
+        "fakerphp/faker"              : "^1.17.1"
     },
 
     "autoload"     : {
@@ -39,7 +39,10 @@
     },
 
     "config"       : {
-        "optimize-autoloader" : true
+        "optimize-autoloader" : true,
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true
+        }
     },
 
     "extra"        : {
