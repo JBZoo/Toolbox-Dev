@@ -23,5 +23,5 @@ namespace JBZoo\PHPUnit;
  */
 class ToolboxDevComposerTest extends AbstractComposerTest
 {
-
+    protected $phpVersion = '>=7.4';
 }

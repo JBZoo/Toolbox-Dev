@@ -25,16 +25,4 @@ namespace JBZoo\PHPUnit;
 class ToolboxDevReadmeTest extends AbstractReadmeTest
 {
     protected $packageName = 'Toolbox-Dev';
-
-    /**
-     * @inheritDoc
-     */
-    protected function setUp(): void
-    {
-        parent::setUp();
-
-        $this->params['codefactor'] = true;
-        $this->params['strict_types'] = true;
-        $this->params['travis'] = true;
-    }
 }
