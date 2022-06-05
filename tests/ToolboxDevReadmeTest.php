@@ -24,5 +24,5 @@ namespace JBZoo\PHPUnit;
  */
 class ToolboxDevReadmeTest extends AbstractReadmeTest
 {
-    protected $packageName = 'Toolbox-Dev';
+    protected string $packageName = 'Toolbox-Dev';
 }
