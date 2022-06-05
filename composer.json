@@ -15,9 +15,9 @@
     "require"      : {
         "php"                         : ">=7.4",
 
-        "jbzoo/phpunit"               : ">=4.13.1",
-        "jbzoo/codestyle"             : ">=4.0.0",
-        "jbzoo/markdown"              : ">=1.1.1",
+        "jbzoo/phpunit"               : "^5.0.0",
+        "jbzoo/codestyle"             : "^4.0.1",
+        "jbzoo/markdown"              : "^1.1.1",
 
         "jbzoo/jbdump"                : ">=1.5.6",
         "symfony/var-dumper"          : ">=4.4",

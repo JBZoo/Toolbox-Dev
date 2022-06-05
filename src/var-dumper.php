@@ -16,6 +16,7 @@
 declare(strict_types=1);
 
 use Symfony\Component\VarDumper\Cloner\VarCloner;
+use Symfony\Component\VarDumper\Dumper\AbstractDumper;
 use Symfony\Component\VarDumper\Dumper\CliDumper;
 use Symfony\Component\VarDumper\VarDumper;
 
@@ -31,7 +32,7 @@ VarDumper::setHandler(static function ($variable): void {
     $varCloner->setMaxItems(500);
     $varCloner->setMaxString($maxStringWidth);
 
-    $cliDumper = new CliDumper(null, 'UTF-8', CliDumper::DUMP_COMMA_SEPARATOR);
+    $cliDumper = new CliDumper(null, 'UTF-8', AbstractDumper::DUMP_COMMA_SEPARATOR);
     $cliDumper->setMaxStringWidth($maxStringWidth);
     $cliDumper->setIndentPad('    ');
     $cliDumper->setDisplayOptions(['fileLinkFormat' => false]);
