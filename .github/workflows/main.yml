@@ -49,6 +49,7 @@ jobs:
           php-version: ${{ matrix.php-version }}
           coverage: ${{ matrix.coverage }}
           tools: composer
+          extensions: ast
 
       - name: Build the Project
         run: make update --no-print-directory
@@ -64,6 +65,7 @@ jobs:
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
+        continue-on-error: true
         with:
           name: PHPUnit - ${{ matrix.php-version }} - ${{ matrix.coverage }}
           path: build/
@@ -85,6 +87,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php-version }}
+          coverage: none
           tools: composer
           extensions: ast
 
@@ -96,6 +99,7 @@ jobs:
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
+        continue-on-error: true
         with:
           name: Linters - ${{ matrix.php-version }}
           path: build/
@@ -117,7 +121,9 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php-version }}
+          coverage: xdebug
           tools: composer
+          extensions: ast
 
       - name: Build the Project
         run: make update --no-print-directory
@@ -127,6 +133,7 @@ jobs:
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
+        continue-on-error: true
         with:
           name: Reports - ${{ matrix.php-version }}
           path: build/
