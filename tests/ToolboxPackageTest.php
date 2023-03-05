@@ -20,5 +20,6 @@ use JBZoo\Codestyle\PHPUnit\AbstractPackageTest;
 
 final class ToolboxPackageTest extends AbstractPackageTest
 {
-    protected string $packageName = 'Toolbox-Dev';
+    protected string $packageName      = 'Toolbox-Dev';
+    protected string $gaScheduleMinute = '55';
 }
