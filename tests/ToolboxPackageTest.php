@@ -16,6 +16,9 @@ declare(strict_types=1);
 
 namespace JBZoo\PHPUnit;
 
-final class ToolboxDevCodestyleTest extends \JBZoo\CodeStyle\PHPUnit\AbstractCodeStyleTest
+use JBZoo\Codestyle\PHPUnit\AbstractPackageTest;
+
+final class ToolboxPackageTest extends AbstractPackageTest
 {
+    protected string $packageName = 'Toolbox-Dev';
 }

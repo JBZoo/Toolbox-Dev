@@ -3,6 +3,15 @@
     "type"         : "library",
     "description"  : "Developer toolbox only for JBZoo libs on github+travis",
     "license"      : "MIT",
+    "keywords"     : [
+        "jbzoo",
+        "toolbox",
+        "dev",
+        "devkit",
+        "dev-kit",
+        "developer",
+        "debug"
+    ],
 
     "authors"      : [
         {
@@ -27,18 +36,14 @@
     },
 
     "autoload"     : {
-        "psr-4" : {
-            "JBZoo\\ToolboxDev\\" : "src"
-        },
+        "psr-4" : {"JBZoo\\ToolboxDev\\" : "src"},
         "files" : [
             "src/var-dumper.php"
         ]
     },
 
     "autoload-dev" : {
-        "classmap" : [
-            "tests"
-        ]
+        "psr-4" : {"JBZoo\\PHPUnit\\" : "tests"}
     },
 
     "config"       : {
