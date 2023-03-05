@@ -24,7 +24,7 @@ if (!\class_exists(VarDumper::class)) {
 }
 
 VarDumper::setHandler(static function (mixed $variable): void {
-    $maxStringWidth = 16384; // Show first 16kb only, optimization
+    $maxStringWidth = 16 * 1024; // Show first 16kb only, optimization
 
     $varCloner = new VarCloner();
     $varCloner->setMaxItems(500);
@@ -32,8 +32,8 @@ VarDumper::setHandler(static function (mixed $variable): void {
 
     $cliDumper = new CliDumper(null, 'UTF-8', AbstractDumper::DUMP_COMMA_SEPARATOR);
     $cliDumper->setMaxStringWidth($maxStringWidth);
-    $cliDumper->setIndentPad('    ');
-    $cliDumper->setDisplayOptions(['fileLinkFormat' => false]);
+    $cliDumper->setIndentPad('    '); // Classic style
+    $cliDumper->setDisplayOptions(['fileLinkFormat' => false]); // Disable file links for PHPStorm
 
     $varClone = $varCloner->cloneVar($variable);
 
