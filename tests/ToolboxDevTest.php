@@ -16,9 +16,6 @@ declare(strict_types=1);
 
 namespace JBZoo\PHPUnit;
 
-/**
- * Class ToolboxDevTest.
- */
 class ToolboxDevTest extends PHPUnit
 {
     public function testDumpMethod(): void
