@@ -16,9 +16,6 @@ declare(strict_types=1);
 
 namespace JBZoo\PHPUnit;
 
-use JBZoo\Codestyle\PHPUnit\AbstractPackageTest;
-
-final class ToolboxDevPackageTest extends AbstractPackageTest
+final class DataPhpStormProxyTest extends \JBZoo\Codestyle\PHPUnit\AbstractPhpStormProxyTest
 {
-    protected string $packageName = 'Toolbox-Dev';
 }
