@@ -24,11 +24,11 @@
     "require"      : {
         "php"                         : "^8.1",
 
-        "jbzoo/phpunit"               : "^5.0.0",
-        "jbzoo/codestyle"             : "7.x-dev",
-        "jbzoo/markdown"              : "^1.1.1",
+        "jbzoo/phpunit"               : "dev-master|7.x-dev",
+        "jbzoo/codestyle"             : "dev-master|7.x-dev",
+        "jbzoo/markdown"              : "dev-master|7.x-dev",
 
-        "jbzoo/jbdump"                : ">=1.5.6",
+        "jbzoo/jbdump"                : ">=1.5.6|dev-master|7.x-dev",
         "symfony/var-dumper"          : ">=4.4",
 
         "php-coveralls/php-coveralls" : ">=2.5.2",

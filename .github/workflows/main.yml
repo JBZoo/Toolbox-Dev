@@ -20,7 +20,7 @@ on:
     branches:
       - 'master'
   schedule:
-    - cron: '55 */8 * * *'
+    - cron: '46 */8 * * *'
 
 env:
   COLUMNS: 120
@@ -59,6 +59,7 @@ jobs:
 
       - name: Uploading coverage to coveralls
         if: ${{ matrix.coverage == 'xdebug' }}
+        continue-on-error: true
         env:
             COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: make report-coveralls --no-print-directory || true
