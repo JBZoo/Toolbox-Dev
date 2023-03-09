@@ -9,7 +9,7 @@
  *
  * @license    MIT
  * @copyright  Copyright (C) JBZoo.com, All rights reserved.
- * @see       https://github.com/JBZoo/Toolbox-Dev
+ * @see        https://github.com/JBZoo/Toolbox-Dev
  */
 
 declare(strict_types=1);
