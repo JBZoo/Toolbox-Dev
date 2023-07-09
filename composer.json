@@ -27,22 +27,20 @@
     "require"           : {
         "php"                         : "^8.1",
 
-        "jbzoo/phpunit"               : "7.x-dev",
-        "jbzoo/codestyle"             : "7.x-dev",
-        "jbzoo/markdown"              : "7.x-dev",
+        "jbzoo/phpunit"               : "^7.0",
+        "jbzoo/codestyle"             : "^7.0",
+        "jbzoo/markdown"              : "^7.0",
 
-        "jbzoo/jbdump"                : ">=1.5.6|7.x-dev",
+        "jbzoo/jbdump"                : ">=1.5.6|^7.0",
         "symfony/var-dumper"          : ">=4.4",
 
         "php-coveralls/php-coveralls" : ">=2.5.3",
-        "fakerphp/faker"              : ">=1.21.0"
+        "fakerphp/faker"              : ">=1.23.0"
     },
 
     "autoload"          : {
         "psr-4" : {"JBZoo\\ToolboxDev\\" : "src"},
-        "files" : [
-            "src/var-dumper.php"
-        ]
+        "files" : ["src/var-dumper.php"]
     },
 
     "autoload-dev"      : {
