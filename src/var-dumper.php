@@ -30,6 +30,9 @@ VarDumper::setHandler(static function (mixed $variable): void {
     $varCloner->setMaxItems(500);
     $varCloner->setMaxString($maxStringWidth);
 
+    // Send output to 'php://stderr' instead of 'php://stdout' to avoid breaking the output of the main script on debug
+    CliDumper::$defaultOutput = 'php://stderr';
+
     $cliDumper = new CliDumper(null, 'UTF-8', AbstractDumper::DUMP_COMMA_SEPARATOR);
     $cliDumper->setMaxStringWidth($maxStringWidth);
     $cliDumper->setIndentPad('    '); // Classic style
