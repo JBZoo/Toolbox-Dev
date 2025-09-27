@@ -25,17 +25,17 @@
     "prefer-stable"     : true,
 
     "require"           : {
-        "php"                         : "^8.1",
+        "php"                         : "^8.2",
 
-        "jbzoo/phpunit"               : "^7.1",
-        "jbzoo/codestyle"             : "^7.1",
+        "jbzoo/phpunit"               : "^7.2",
+        "jbzoo/codestyle"             : "^7.1.6",
         "jbzoo/markdown"              : "^7.0",
 
         "jbzoo/jbdump"                : ">=1.5.6|^7.0",
-        "symfony/var-dumper"          : ">=6.4",
+        "symfony/var-dumper"          : ">=7.3.4",
 
-        "php-coveralls/php-coveralls" : ">=2.7.0",
-        "fakerphp/faker"              : ">=1.23.0"
+        "php-coveralls/php-coveralls" : ">=2.8.0",
+        "fakerphp/faker"              : ">=1.24.1"
     },
 
     "autoload"          : {
