@@ -28,8 +28,8 @@
         "php"                         : "^8.2",
 
         "jbzoo/phpunit"               : "^7.2",
-        "jbzoo/codestyle"             : "^7.1.6",
-        "jbzoo/markdown"              : "^7.0",
+        "jbzoo/codestyle"             : "^7.2",
+        "jbzoo/markdown"              : "^7.0.2",
 
         "jbzoo/jbdump"                : ">=1.5.6|^7.0",
         "symfony/var-dumper"          : ">=7.3.4",
