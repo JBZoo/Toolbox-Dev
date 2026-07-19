@@ -31,7 +31,6 @@
         "jbzoo/codestyle"             : "^8.0",
         "jbzoo/markdown"              : "^8.0",
 
-        "jbzoo/jbdump"                : ">=1.5.6|^7.0",
         "symfony/var-dumper"          : ">=7.3.4",
 
         "php-coveralls/php-coveralls" : ">=2.8.0",
