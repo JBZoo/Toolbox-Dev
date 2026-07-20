@@ -69,7 +69,7 @@ dump($variable);  // Outputs to stderr with optimized formatting
 
 ## Requirements
 
-- PHP 8.2 or higher
+- PHP 8.3 or higher
 - Composer for dependency management
 
 ## Integration
@@ -79,7 +79,7 @@ This package is designed to be included as a development dependency in JBZoo pro
 ```json
 {
     "require-dev": {
-        "jbzoo/toolbox-dev": "^7.0"
+        "jbzoo/toolbox-dev": "^8.0"
     }
 }
 ```

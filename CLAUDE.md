@@ -52,7 +52,7 @@ This package includes JBZoo's standardized toolchain via the Makefile system:
 - Acts as a single dependency to pull in all necessary development tools
 
 ### PHP Version Requirements
-- PHP 8.2+ required
+- PHP 8.3+ required
 - Compatible with PHP 8.3 and 8.4 (tested in CI)
 
 ### Testing Framework
@@ -67,7 +67,7 @@ This package is typically included as a development dependency in other JBZoo pr
 ```json
 {
     "require-dev": {
-        "jbzoo/toolbox-dev": "^7.0"
+        "jbzoo/toolbox-dev": "^8.0"
     }
 }
 ```
